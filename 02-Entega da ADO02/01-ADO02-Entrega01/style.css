@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #5e24e6;
+  }
+  
+  /* Estilos gerais */
+  body {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+  /* Header */
+  header {
+    background-color: #5e24e6;
+    padding: 20px 0;
+  }
+  
+  .container {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 150px;
+    height: auto;
+  }
+  
+  header nav {
+    display: flex;
+    list-style: none;
+  }
+  
+  header nav li {
+    margin-right: 20px;
+  }
+  
+  header nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  header nav a:hover {
+    color: #ddd;
+  }
+  
+  .cta {
+    display: none;
+  }
+  
+  /* Media queries */
+  @media (max-width: 768px) {
+    header {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 30px 0;
+    }
+  
+    .logo {
+      margin-bottom: 20px;
+    }
+  
+    header nav {
+      flex-direction: column;
+      margin-top: 20px;
+    }
+  
+    header nav li {
+      margin-bottom: 10px;
+    }
+  
+    .cta {
+      display: block;
+      margin-top: 20px;
+    }
+  }
+  
+  /* Main */
+  main {
+    padding: 40px 0;
+  }
+  
+  /* Banner */
+  .banner {
+    background-color: #f7f7f7;
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  .banner h1 {
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+  
+  .banner p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .acoes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .acoes a {
+    background-color: #5e24e6;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .acoes a:hover {
+    background-color: #5e24e6;
+  }
+  
+  /* Como funciona */
+  .como-funciona {
+    padding: 40px 0;
+  }
+  
+  .como-funciona h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .como-funciona p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .itens {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+  }
+  
+  .item {
+    flex: 1 1 300px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .item img {
+    margin-bottom: 10
+  }
