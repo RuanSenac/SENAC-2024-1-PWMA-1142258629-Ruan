@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <button class="comecar" id="comecarButton">COMEÇAR</button>
+
+<!-- Modal para cadastrar projetos -->
+<div id="modalCadastro" class="modal">
+  <div class="modal-content">
+    <span class="close" id="closeModal">&times;</span>
+    <h2>Cadastrar Projeto</h2>
+    <form id="projectForm">
+      <label for="projectTitle">Título do Projeto:</label>
+      <input type="text" id="projectTitle" required>
+      <label for="projectDescription">Descrição:</label>
+      <textarea id="projectDescription" rows="4"></textarea>
+      <button type="submit">Salvar Projeto</button>
+    </form>
+  </div>
+</div>
+</body>
+</html>

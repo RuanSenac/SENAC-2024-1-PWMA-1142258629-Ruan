@@ -1,0 +1,63 @@
+/* Estilos para o modal de cadastro de projetos */
+#modalCadastro {
+    display: none; /* Por padrão, o modal está oculto */
+    position: fixed; /* Ficar fixo na tela */
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto; 
+    background-color: rgba(0, 0, 0, 0.4); /* Fundo semi-transparente para o modal */
+  }
+  
+  .modal-content {
+    background-color: #8A2BE2; /* Cor de fundo roxa */
+    margin: 15% auto; /* Centralize o modal na tela */
+    padding: 20px;
+    border-radius: 8px;
+    width: 50%; /* Largura do modal */
+    color: white; /* Cor do texto */
+  }
+  
+  .close {
+    color: white; /* Cor do ícone de fechar */
+    float: right; /* Alinhar o ícone de fechar à direita */
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #ccc; /* Cor do ícone de fechar ao passar o mouse */
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* Estilos para os campos de entrada */
+  #projectForm input[type="text"],
+  #projectForm textarea {
+    width: 100%; /* Largura total dos campos */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  /* Estilos para o botão de salvar projeto */
+  #projectForm button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: white; /* Cor de fundo branca */
+    color: #8A2BE2; /* Cor do texto roxa */
+    border: 1px solid #8A2BE2;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #projectForm button[type="submit"]:hover {
+    background-color: #8A2BE2; /* Cor de fundo roxa ao passar o mouse */
+    color: white; /* Cor do texto branco ao passar o mouse */
+  }
+  
